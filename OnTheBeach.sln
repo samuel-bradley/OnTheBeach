@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnTheBeach.API", "OnTheBeach.API\OnTheBeach.API.csproj", "{33B84CAD-D230-4643-B0A4-D6B490D68C26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnTheBeach.API.Tests", "OnTheBeach.API.Tests\OnTheBeach.API.Tests.csproj", "{707687B6-F37D-44B3-9E58-98AB7DBDDEFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{33B84CAD-D230-4643-B0A4-D6B490D68C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33B84CAD-D230-4643-B0A4-D6B490D68C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33B84CAD-D230-4643-B0A4-D6B490D68C26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{707687B6-F37D-44B3-9E58-98AB7DBDDEFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{707687B6-F37D-44B3-9E58-98AB7DBDDEFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{707687B6-F37D-44B3-9E58-98AB7DBDDEFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{707687B6-F37D-44B3-9E58-98AB7DBDDEFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
