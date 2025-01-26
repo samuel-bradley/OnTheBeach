@@ -1,6 +1,14 @@
 @OnTheBeach.API_HostAddress = http://localhost:5161
 
-GET {{OnTheBeach.API_HostAddress}}/weatherforecast/
+POST {{OnTheBeach.API_HostAddress}}/api/Holidays/search
+Content-Type: application/json
 Accept: application/json
+
+{
+  "departing_from": "MAN",
+  "traveling_to": "PMI",
+  "departure_date": "2023-06-15",
+  "duration": 11
+}
 
 ###
